@@ -12,8 +12,19 @@ canvas {
   float: right;
 }
 
+
+/* SYD: Added this section for sponge image */
+.fixed-right0 {
+  position: fixed;
+  width: 10%; /* SYD: Added this to all images to make them scale */
+  right: 0;
+  top: 10%;
+  transform: translateY(-50%);
+}
+
 .fixed-right1 {
   position: fixed;
+  width: 10%; /* SYD: Added this to all images to make them scale */
   right: 0;
   top: 30%;
   transform: translateY(-50%);
@@ -21,6 +32,7 @@ canvas {
 
 .fixed-right2 {
   position: fixed;
+  width: 10%;
   right: 0;
   top: 50%;
   transform: translateY(-50%);
@@ -28,6 +40,7 @@ canvas {
 
 .fixed-right3 {
   position: fixed;
+  width: 10%;
   right: 0;
   top: 70%;
   transform: translateY(-50%);
@@ -35,6 +48,7 @@ canvas {
 
 .fixed-right4 {
   position: fixed;
+  width: 10%;
   right: 0;
   top: 90%;
   transform: translateY(-50%);

@@ -18,9 +18,13 @@ function setup() {
 
     imageMode(CENTER);
 
-    button = createButton('Sponge'); //  button
-    button.position(windowWidth - 100, 50); // button position
-    button.mousePressed(showImage); // button function
+    //button = createButton('Sponge'); //  button
+    //button.position(windowWidth - 100, 50); // button position
+
+    //SYD ADDED THIS--------------------------------
+    //INTERACT WITH IMAGES
+    let spongeButton = select('.fixed-right0'); 
+    spongeButton.mousePressed(showImage); // button function
 
 }
 
